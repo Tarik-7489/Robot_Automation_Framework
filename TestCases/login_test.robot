@@ -8,8 +8,8 @@ Test Teardown    Close All Browsers With Screenshot On Failure
 Suite Setup    Kill Browsers Before Retry
 
 *** Variables ***
-${BASE_URL}      https://preprodapp.inmeet.ai/
-${Expected_URL}  https://preprodapp.inmeet.ai/meetings
+${BASE_URL}      https://practicetestautomation.com/practice-test-login/
+${Expected_URL}  https://practicetestautomation.com/practice-test-login/meetings
 ${EXCEL_FILE}    ${CURDIR}/../TestData/login_data.xlsx
 ${SHEET_NAME}    Login
 ${VIDEO_NAME}      test_video
