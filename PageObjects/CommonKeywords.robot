@@ -7,9 +7,9 @@ Resource    ../PageObjects/LoginPage.robot
 
 *** Variables ***
 ${BROWSER}    chrome
-${url}      https://preprodapp.inmeet.ai/
+${url}      https://practicetestautomation.com/practice-test-login/
 ${EXCEL_FILE}    ${CURDIR}/../TestData/login_data.xlsx
-${url}          https://preprodapp.inmeet.ai/
+${url}         https://practicetestautomation.com/practice-test-login/
 
 
 
